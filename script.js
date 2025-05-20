@@ -6,7 +6,7 @@ function check(){
     if(attemptsleft==0){
         document.getElementById("Check").disabled = true;
         document.getElementById("Check").textContent = "GAME OVER";
-alert("Game Over")
+alert("Game Over!You Lost.")
 return;
 }
 
@@ -21,8 +21,15 @@ var dead=document.getElementById("lucky")
 
 
 if(ourNumber==inputvalue){
+    alert("Your score is "+scorevalue)
+document.getElementById("Check").disabled = true;
 test.textContent="RIGHT"
+if(scorevalue>3 ){
+    dead.textContent="YOU ARE LUCKY"
+      dead.style.color="Yellow"
+   }
 }
+
 else{
    test.textContent="WRONG"
    test.style.color="red";
@@ -35,6 +42,8 @@ else{
         document.getElementById("Check").textContent = "GAME OVER";
 
    }
+   
+   
 }
 
 
