@@ -1,0 +1,173 @@
+#top{
+    width: 100vw;
+    /* background-color:red; */
+    height: 300px;
+    margin: 0;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#topblock1{
+    flex: 1;
+}
+#topblock2{
+    flex:2;
+    width: 100vh;
+    
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+#lucky{ font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+ text-align: center; text-shadow: -1px -1px 0 #ff7700, 1px -1px 0 #ff9d00, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+#topblock3{
+    flex: 1;
+}
+#subquote{
+   font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(235, 145, 34);
+  
+  
+  text-shadow: -1px -1px 0 #ff0000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#mainquote{
+    font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  color: rgb(255, 0, 0);
+  text-align: center; text-shadow: -1px -1px 0 #ff7700, 1px -1px 0 #ff9d00, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#mid{
+      width: 100vw;
+    background-color: #0000004a;
+    height: 300px;
+    margin: 0;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#midblock1{
+flex: 1;
+display: grid;
+align-items: center;
+justify-content: center;
+
+}
+#midblock1>h1{
+flex: 1;
+font-size: 60px;
+    font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff9d00;
+}
+#midblock2{
+    flex: 2;
+    text-align: center;
+}
+#midblock3{
+  flex: 1;  
+}
+body{
+    background-image: url(background.png);
+    display: flex;
+    flex-direction: column;
+}
+#bottom{
+    display: flex;
+    
+    width:100vw ;
+}
+#b1{
+    flex: 1;
+}
+#b2{
+    flex: 2;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+#b3{
+    flex: 1;
+}
+#h1{
+color: #2bff00;
+font-size: 25px;
+}
+#h2{
+color: #ff4000;
+font-size: 25px;
+}
+#input{
+    flex: 1;
+    width: 180px;
+    height: 60px;
+    border-radius: 9px;
+    border: 0cap;
+    padding: 10px;
+    font-size: 30px;
+    font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  outline: solid 3px red;
+  color: #290000;
+  background-image: url(gas.jpg);
+  padding-left: 350px;
+}
+#check{
+    width: 180px;
+    height: 60px;
+    border-radius: 9px;
+    font-size: 20px;
+    font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #ce0101;
+  color: #ffce80;
+  border: 0;
+  box-shadow: inset 6px 6px 10px 0 rgba(50, 1, 1, 0.39), inset -6px -6px 10px 0 rgba(255, 234, 8, 0.5);
+  
+  
+}
+#check:hover{
+  cursor: pointer;
+  background-color: #ff2e1b;
+}
+#bottom2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+#scoretext{
+       font-size: 20px;
+    font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff9d00;
+  font-size: 40px;
+}
+#score{
+       font-size: 20px;
+    font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff5900;
+  font-size: 45px;
+}
